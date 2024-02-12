@@ -1,0 +1,37 @@
+{
+    "contracts": {
+        "0xAA6BfA174d2f803b517026E93DBBEc1eBa26258e": "Azorius"
+    },
+    "explorer_hostname": "api.etherscan.io",
+    "github_repo": {
+        "url": "https://github.com/decent-dao/fractal-contracts",
+        "commit": "54290ad5b67a2b095e4402bf1d19a4f0bc4c384e",
+        "relative_root": ""
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": {
+            "url": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+            "commit": "ecd2ca2cd7cac116f7a37d0e474bbb3d7d5e1c4d",
+            "version": "4.7.3",
+            "relative_root": "contracts"
+        },
+        "@openzeppelin/contracts-upgradeable": {
+            "url": "https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable",
+            "commit": "0a2cb9a445c365870ed7a8ab461b12acf3e27d63",
+            "version": "4.7.3",
+            "relative_root": "contracts"
+        },
+        "@gnosis.pm/zodiac": {
+            "url": "https://github.com/gnosisguild/zodiac",
+            "commit": "1ea1b8b7bb43ef375676ae9cf704ecb4cdeca275",
+            "version": "1.1.4",
+            "relative_root": ""
+        },
+        "@gnosis.pm/safe-contracts": {
+            "url": "https://github.com/safe-global/safe-smart-account",
+            "commit": "186a21a74b327f17fc41217a927dea7064f74604",
+            "version": "1.3.0",
+            "relative_root": ""
+        }
+    }
+}
